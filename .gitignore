@@ -1,0 +1,4 @@
+# MATLAB/Simulink
+*.slxc
+cache
+slprj
