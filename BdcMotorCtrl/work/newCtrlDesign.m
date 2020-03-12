@@ -1,7 +1,7 @@
 %% New Controller Design
 
 %% Introduction
-mdl = 'top_model';
+mdl = 'TopModel';
 load_system(mdl);
 h = get_param(mdl, 'modelworkspace');
 
