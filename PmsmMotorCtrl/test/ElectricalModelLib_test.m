@@ -4,10 +4,11 @@ function tests = ElectricalModelLib_test()
 tests = functiontests(localfunctions());
 end
 
-function testClarkTransforms(testCase)
-%TESTCLARKTRANSFORMS
+function testClarkAndParkTransforms(testCase)
+%TESTCLARKANDPARKTRANSFORMS
 %
-% Verifications is actually done in the Simulink test harness itself. We
+% The assessments are actually done in the Simulink test harness itself. We
 % just need to simulate it.
-sim('ClarkTransforms_harness');
+
+sim('ClarkAndParkTransforms_harness');
 end
